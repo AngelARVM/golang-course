@@ -34,4 +34,12 @@ func main() {
 	} else {
 		fmt.Println(value)
 	}
+
+	num := 1
+
+	if num%2 == 0 {
+		fmt.Println("Is pair")
+	} else {
+		fmt.Println("Is odd")
+	}
 }
